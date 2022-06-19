@@ -1,0 +1,907 @@
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:6 conn:1:1 sconn:53 | aa_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62aecd6f6ac952ccc40b6a6b'), "email"=>"oussama@oussama.com", "password_digest"=>"$2a$12$ZjeSGzKc9iL3PkYdvQKS3uvLr.nCLGOJfUjWu2qsYQuTBseClClIy", "updated_at"=>2022-06-19 07:17:03...
+MONGODB | localhost:27017 req:6 | aa_development.insert | SUCCEEDED | 0.010s
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/" for 127.0.0.1 at 2022-06-19 10:57:13 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/oussama/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/oussama/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.4ms | Allocations: 636)
+Completed 200 OK in 12ms (Views: 7.5ms | MongoDB: 0.0ms | Allocations: 3460)
+
+
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 10:57:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/makeuser"):
+  
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 10:57:37 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 180.4ms | Allocations: 71523)
+Completed 200 OK in 192ms (Views: 182.3ms | MongoDB: 0.0ms | Allocations: 78082)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:14:29 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2094)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 14966)
+Completed 200 OK in 24ms (Views: 15.9ms | MongoDB: 0.0ms | Allocations: 21209)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:15:38 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 17.1ms | Allocations: 9596)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 12218)
+Completed 200 OK in 27ms (Views: 25.2ms | MongoDB: 0.0ms | Allocations: 13080)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:15:53 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 902)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3477)
+Completed 200 OK in 12ms (Views: 10.6ms | MongoDB: 0.0ms | Allocations: 4331)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:17:42 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 15.7ms | Allocations: 14664)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 17270)
+Completed 200 OK in 22ms (Views: 21.2ms | MongoDB: 0.0ms | Allocations: 18092)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:17:52 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1297)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3869)
+Completed 200 OK in 10ms (Views: 9.3ms | MongoDB: 0.0ms | Allocations: 4718)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:17:58 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1264)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3836)
+Completed 200 OK in 7ms (Views: 6.2ms | MongoDB: 0.0ms | Allocations: 4659)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:18:03 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1273)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3845)
+Completed 200 OK in 12ms (Views: 10.6ms | MongoDB: 0.0ms | Allocations: 4667)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:18:54 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1526)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 4096)
+Completed 200 OK in 8ms (Views: 6.8ms | MongoDB: 0.0ms | Allocations: 4918)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:19:10 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1460)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4039)
+Completed 200 OK in 11ms (Views: 9.4ms | MongoDB: 0.0ms | Allocations: 4863)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:22:47 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1354)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 13984)
+Completed 200 OK in 17ms (Views: 11.5ms | MongoDB: 0.0ms | Allocations: 19916)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:03 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 3ms (Views: 1.8ms | MongoDB: 0.0ms | Allocations: 817)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:05 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 531)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:05 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 488)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:05 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 454)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:05 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 457)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:06 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 484)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:06 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 466)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:06 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 475)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:06 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.9ms | MongoDB: 0.0ms | Allocations: 472)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:06 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.5ms | MongoDB: 0.0ms | Allocations: 454)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:06 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 475)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:07 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.5ms | MongoDB: 0.0ms | Allocations: 487)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:09 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.3ms | MongoDB: 0.0ms | Allocations: 469)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:09 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 481)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 469)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.4ms | MongoDB: 0.0ms | Allocations: 493)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:23:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 487)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:30:18 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1378)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 13933)
+Completed 200 OK in 18ms (Views: 11.2ms | MongoDB: 0.0ms | Allocations: 19866)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:30:24 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 485)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:30:25 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 449)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:30:25 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 463)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:30:26 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 475)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:30:26 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 442)
+
+
+Started POST "/make_user" for 127.0.0.1 at 2022-06-19 11:30:26 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 466)
+
+
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:31:06 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 4841)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4935)
+Completed 500 Internal Server Error in 17ms (MongoDB: 0.0ms | Allocations: 5756)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `makeuser_path' for #<ActionView::Base:0x0000000000b450>
+
+'.freeze;@output_buffer.append=  form_with model: @user, url: makeuser_path do |form|@output_buffer.safe_append='
+                                                              ^^^^^^^^^^^^^
+Did you mean?  make_user_path):
+    1: <h1>now you are adding a user</h1>
+    2: 
+    3: <%= form_with model: @user, url: makeuser_path do |form|%>
+    4:   <%= form.label :email %>
+    5:   <%= form.text_field :email %>
+    6:   <br><br>
+  
+app/views/makeuser/new.html.erb:3
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:32:21 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/make_user"):
+  
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:32:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/make_user"):
+  
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:32:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/make_user"):
+  
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:32:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/make_user"):
+  
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:32:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/make_user"):
+  
+Started GET "/make_user" for 127.0.0.1 at 2022-06-19 11:32:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/make_user"):
+  
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:04 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1383)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 14234)
+Completed 200 OK in 19ms (Views: 13.0ms | MongoDB: 0.0ms | Allocations: 20163)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:08 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 504)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:09 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.5ms | MongoDB: 0.0ms | Allocations: 472)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:09 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 449)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 436)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 460)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 444)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:10 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 448)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:12 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 475)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:12 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:12 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:12 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 445)
+
+
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:15 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1036)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3242)
+Completed 200 OK in 10ms (Views: 9.1ms | MongoDB: 0.0ms | Allocations: 3517)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:18 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.3ms | MongoDB: 0.0ms | Allocations: 463)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:33:22 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 469)
+
+
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:35:57 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1704)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 14502)
+Completed 200 OK in 22ms (Views: 14.0ms | MongoDB: 0.0ms | Allocations: 20743)
+
+
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:36:02 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1039)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3232)
+Completed 200 OK in 9ms (Views: 8.2ms | MongoDB: 0.0ms | Allocations: 3518)
+
+
+Started POST "/users" for 127.0.0.1 at 2022-06-19 11:36:06 +0100
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :password. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fbc94006dd0>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"users", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 1884)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2244)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 4617)
+Completed 422 Unprocessable Entity in 10ms (Views: 7.2ms | MongoDB: 0.0ms | Allocations: 6326)
+
+
+Started POST "/users" for 127.0.0.1 at 2022-06-19 11:36:09 +0100
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"admin@admin.com", "password_digest"=>"[FILTERED]"}, "commit"=>"Create User"}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:6 conn:1:1 sconn:62 | aa_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62aefc196ac952e77c7891f8'), "email"=>"admin@admin.com", "password_digest"=>"dzfzdfzdf", "updated_at"=>2022-06-19 10:36:09.284001091 UTC, "created_at"=>2022-06-19 10:36:09.28400...
+MONGODB | localhost:27017 req:6 | aa_development.insert | SUCCEEDED | 0.000s
+Redirected to http://127.0.0.1:3000/users/62aefc196ac952e77c7891f8
+Completed 302 Found in 12ms (MongoDB: 0.0ms | Allocations: 6001)
+
+
+Started GET "/users/62aefc196ac952e77c7891f8" for 127.0.0.1 at 2022-06-19 11:36:09 +0100
+Processing by UsersController#show as TURBO_STREAM
+  Parameters: {"id"=>"62aefc196ac952e77c7891f8"}
+MONGODB | localhost:27017 req:7 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62aefc196ac952e77c7891f8')}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:7 | aa_development.find | SUCCEEDED | 0.000s
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_user.html.erb (Duration: 0.5ms | Allocations: 249)
+  Rendered users/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1570)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3874)
+Completed 200 OK in 17ms (Views: 5.8ms | MongoDB: 0.0ms | Allocations: 6608)
+
+
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/users" for 127.0.0.1 at 2022-06-19 11:37:48 +0100
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+MONGODB | localhost:27017 req:17 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:17 | aa_development.find | SUCCEEDED | 0.001s
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered users/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 2626)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4834)
+Completed 200 OK in 9ms (Views: 7.7ms | MongoDB: 0.0ms | Allocations: 5232)
+
+
+Started GET "/" for 127.0.0.1 at 2022-06-19 11:38:09 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/oussama/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/oussama/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 317)
+Completed 200 OK in 4ms (Views: 2.9ms | MongoDB: 0.0ms | Allocations: 890)
+
+
+Started GET "/new" for 127.0.0.1 at 2022-06-19 11:38:38 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:38:45 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1416)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 14053)
+Completed 200 OK in 23ms (Views: 16.5ms | MongoDB: 0.0ms | Allocations: 19985)
+
+
+Started POST "/users" for 127.0.0.1 at 2022-06-19 11:38:55 +0100
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@dfzdf.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+[31mUnpermitted parameter: :password. Context: { controller: UsersController, action: create, request: #<ActionDispatch::Request:0x00007fbc95647608>, params: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@dfzdf.com", "password"=>"[FILTERED]"}, "commit"=>"Create User", "controller"=>"users", "action"=>"create"} }[0m
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.5ms | Allocations: 1440)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1571)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3952)
+Completed 422 Unprocessable Entity in 10ms (Views: 7.0ms | MongoDB: 0.0ms | Allocations: 5424)
+
+
+Started POST "/users" for 127.0.0.1 at 2022-06-19 11:39:00 +0100
+Processing by UsersController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"aaaa@dfzdf.com", "password_digest"=>"[FILTERED]"}, "commit"=>"Create User"}
+MONGODB | localhost:27017 req:26 conn:1:1 sconn:62 | aa_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62aefcc46ac952e77c7891f9'), "email"=>"aaaa@dfzdf.com", "password_digest"=>"aaaaaaazefzqfdf", "updated_at"=>2022-06-19 10:39:00.14492189 UTC, "created_at"=>2022-06-19 10:39:00.1...
+MONGODB | localhost:27017 req:26 | aa_development.insert | SUCCEEDED | 0.001s
+Redirected to http://127.0.0.1:3000/users/62aefcc46ac952e77c7891f9
+Completed 302 Found in 4ms (MongoDB: 0.0ms | Allocations: 2136)
+
+
+Started GET "/users/62aefcc46ac952e77c7891f9" for 127.0.0.1 at 2022-06-19 11:39:00 +0100
+Processing by UsersController#show as TURBO_STREAM
+  Parameters: {"id"=>"62aefcc46ac952e77c7891f9"}
+MONGODB | localhost:27017 req:27 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62aefcc46ac952e77c7891f9')}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:27 | aa_development.find | SUCCEEDED | 0.001s
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_user.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered users/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 760)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2946)
+Completed 200 OK in 8ms (Views: 4.9ms | MongoDB: 0.0ms | Allocations: 4772)
+
+
+Started DELETE "/users/62aefcc46ac952e77c7891f9" for 127.0.0.1 at 2022-06-19 11:39:07 +0100
+Processing by UsersController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"62aefcc46ac952e77c7891f9"}
+MONGODB | localhost:27017 req:28 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62aefcc46ac952e77c7891f9')}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:28 | aa_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:29 conn:1:1 sconn:62 | aa_development.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('62aefcc46ac952e77c7891f9')}, "limit"=>1}], "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:29 | aa_development.delete | SUCCEEDED | 0.001s
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 8ms (MongoDB: 0.0ms | Allocations: 3360)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-06-19 11:39:07 +0100
+Processing by UsersController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+MONGODB | localhost:27017 req:30 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:30 | aa_development.find | SUCCEEDED | 0.001s
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2220)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 4413)
+Completed 200 OK in 8ms (Views: 7.4ms | MongoDB: 0.0ms | Allocations: 4698)
+
+
+Started GET "/users/62aefc196ac952e77c7891f8" for 127.0.0.1 at 2022-06-19 11:39:09 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"62aefc196ac952e77c7891f8"}
+MONGODB | localhost:27017 req:31 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62aefc196ac952e77c7891f8')}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:31 | aa_development.find | SUCCEEDED | 0.001s
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered users/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 677)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2862)
+Completed 200 OK in 7ms (Views: 3.7ms | MongoDB: 0.0ms | Allocations: 4576)
+
+
+Started DELETE "/users/62aefc196ac952e77c7891f8" for 127.0.0.1 at 2022-06-19 11:39:09 +0100
+Processing by UsersController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"62aefc196ac952e77c7891f8"}
+MONGODB | localhost:27017 req:33 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62aefc196ac952e77c7891f8')}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:33 | aa_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 req:34 conn:1:1 sconn:62 | aa_development.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('62aefc196ac952e77c7891f8')}, "limit"=>1}], "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:34 | aa_development.delete | SUCCEEDED | 0.001s
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 9ms (MongoDB: 0.0ms | Allocations: 2858)
+
+
+Started GET "/users" for 127.0.0.1 at 2022-06-19 11:39:09 +0100
+Processing by UsersController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+MONGODB | localhost:27017 req:35 conn:1:1 sconn:62 | aa_development.find | STARTED | {"find"=>"users", "filter"=>{}, "$db"=>"aa_development", "lsid"=>{"id"=><BSON::Binary:0x30640 type=uuid data=0x96f2ddb942a24b5f...>}}
+MONGODB | localhost:27017 req:35 | aa_development.find | SUCCEEDED | 0.001s
+  Rendered users/_user.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2037)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 4230)
+Completed 200 OK in 7ms (Views: 6.6ms | MongoDB: 0.0ms | Allocations: 4512)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2022-06-19 11:39:16 +0100
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.0ms | Allocations: 1073)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1181)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3374)
+Completed 200 OK in 9ms (Views: 7.9ms | MongoDB: 0.0ms | Allocations: 3643)
+
+
+Started GET "/new" for 127.0.0.1 at 2022-06-19 11:39:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:39:30 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1051)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3257)
+Completed 200 OK in 7ms (Views: 6.1ms | MongoDB: 0.0ms | Allocations: 3524)
+
+
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:07 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1622)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 14446)
+Completed 200 OK in 28ms (Views: 16.3ms | MongoDB: 0.0ms | Allocations: 20688)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:18 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 484)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:19 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 445)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:19 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 442)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:20 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 1.0ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:20 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 11:47:20 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 463)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:39 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.5ms | MongoDB: 0.0ms | Allocations: 464)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:40 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.9ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:40 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 1.1ms | MongoDB: 0.0ms | Allocations: 448)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:40 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.4ms | MongoDB: 0.0ms | Allocations: 457)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:40 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 472)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:41 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 463)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:41 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 448)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:41 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 460)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:20:41 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.9ms | MongoDB: 0.0ms | Allocations: 457)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:03 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"gsdfgdsfg@dg.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 2ms (Views: 0.8ms | MongoDB: 0.0ms | Allocations: 906)
+
+
+Started POST "/makeuser/create" for 127.0.0.1 at 2022-06-19 13:22:32 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/makeuser/create"):
+  
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:32 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 13990)
+Completed 200 OK in 20ms (Views: 10.3ms | MongoDB: 0.0ms | Allocations: 19647)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:36 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 1.0ms | MongoDB: 0.0ms | Allocations: 473)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:36 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | MongoDB: 0.0ms | Allocations: 475)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:36 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:36 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.4ms | MongoDB: 0.0ms | Allocations: 451)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:37 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 463)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 13:22:37 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | MongoDB: 0.0ms | Allocations: 439)
+
+
+Started GET "/makeuser" for 127.0.0.1 at 2022-06-19 14:04:31 +0100
+Processing by MakeuserController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering makeuser/new.html.erb within layouts/application
+  Rendered makeuser/new.html.erb within layouts/application (Duration: 20.6ms | Allocations: 6248)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 34437)
+Completed 200 OK in 65ms (Views: 53.9ms | MongoDB: 0.0ms | Allocations: 42174)
+
+
+Started POST "/makeuser" for 127.0.0.1 at 2022-06-19 14:04:42 +0100
+Processing by MakeuserController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"poi@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 9)
+Completed 200 OK in 3ms (Views: 1.3ms | MongoDB: 0.0ms | Allocations: 749)
+
+

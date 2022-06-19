@@ -1,0 +1,11 @@
+<h1>now you are adding a user</h1>
+
+<%= form_with model: @user, url: makeuser_path, method:'post' do |form|%>
+  <%= form.label :email %>
+  <%= form.text_field :email %>
+  <br><br>
+  <%= form.label :password %>
+  <%= form.password_field :password %>
+  <br><br>
+  <%= form.submit %>
+<% end %>
